@@ -10,9 +10,9 @@ height_cm_ = st.number_input("กรอกส่วนสูงคุณ (เซ
 
 #ส่วนที่ 3 สรา้งปุ่มกดคำนวณ
 if st.button("คำนวณค่า BMI 📥"):
-   # แปลงส่วนสูงจาก cm เป็นเมตร แล้วคำนวณ BMI
-   height_m = height_cm / 100
-   bmi = weight / (height_m **2)
+    # แปลงส่วนสูงจาก cm เป็นเมตร แล้วคำนวณ BMI
+    height_m = height_cm / 100
+    bmi = weight / (height_m **2)
   
    st.write("---")
    st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
